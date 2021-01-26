@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.elongshop.winh/2019/09/07/yi-long-jia-ju/</loc>
+    
+    <lastmod>2021-01-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.elongshop.winh/2019/09/07/yi-fang-bao-zhuang/</loc>
     
     <lastmod>2021-01-26</lastmod>
@@ -108,6 +115,13 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%AE%B6%E5%B1%85/</loc>
+    <lastmod>2021-01-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -119,6 +133,13 @@
   
   <url>
     <loc>https://www.elongshop.winh/categories/%E5%8C%85%E8%A3%85/</loc>
+    <lastmod>2021-01-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.elongshop.winh/categories/%E7%BF%BC%E9%BE%99%E5%AE%B6%E5%B1%85/</loc>
     <lastmod>2021-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
