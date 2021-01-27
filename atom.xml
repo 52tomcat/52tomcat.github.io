@@ -6,7 +6,7 @@
   <link href="https://www.elongshop.winh/atom.xml" rel="self"/>
   
   <link href="https://www.elongshop.winh/"/>
-  <updated>2021-01-26T06:21:18.319Z</updated>
+  <updated>2021-01-27T01:17:19.649Z</updated>
   <id>https://www.elongshop.winh/</id>
   
   <author>
@@ -15,56 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>亿方包装</title>
-    <link href="https://www.elongshop.winh/2019/09/07/yi-fang-bao-zhuang/"/>
-    <id>https://www.elongshop.winh/2019/09/07/yi-fang-bao-zhuang/</id>
-    <published>2019-09-07T01:25:00.000Z</published>
-    <updated>2021-01-26T06:21:18.319Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="包装" scheme="https://www.elongshop.winh/categories/%E5%8C%85%E8%A3%85/"/>
-    
-    
-    <category term="亿方" scheme="https://www.elongshop.winh/tags/%E4%BA%BF%E6%96%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>翼龙家居</title>
-    <link href="https://www.elongshop.winh/2019/09/07/yi-long-jia-ju/"/>
-    <id>https://www.elongshop.winh/2019/09/07/yi-long-jia-ju/</id>
-    <published>2019-09-07T01:25:00.000Z</published>
-    <updated>2021-01-26T06:45:12.422Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="翼龙家居" scheme="https://www.elongshop.winh/categories/%E7%BF%BC%E9%BE%99%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="翼龙家居" scheme="https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%AE%B6%E5%B1%85/"/>
-    
-  </entry>
   
   <entry>
     <title>HarmonyOS_鸿蒙</title>
@@ -94,6 +44,56 @@
   </entry>
   
   <entry>
+    <title>翼龙家居</title>
+    <link href="https://www.elongshop.winh/2019/09/07/yi-long-jia-ju/"/>
+    <id>https://www.elongshop.winh/2019/09/07/yi-long-jia-ju/</id>
+    <published>2019-09-07T01:25:00.000Z</published>
+    <updated>2021-01-26T06:45:12.422Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="翼龙家居" scheme="https://www.elongshop.winh/categories/%E7%BF%BC%E9%BE%99%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="翼龙家居" scheme="https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%AE%B6%E5%B1%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>亿方包装</title>
+    <link href="https://www.elongshop.winh/2019/09/07/yi-fang-bao-zhuang/"/>
+    <id>https://www.elongshop.winh/2019/09/07/yi-fang-bao-zhuang/</id>
+    <published>2019-09-07T01:25:00.000Z</published>
+    <updated>2021-01-26T06:21:18.319Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="包装" scheme="https://www.elongshop.winh/categories/%E5%8C%85%E8%A3%85/"/>
+    
+    
+    <category term="亿方" scheme="https://www.elongshop.winh/tags/%E4%BA%BF%E6%96%B9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>格式模板</title>
     <link href="https://www.elongshop.winh/2016/09/07/test/"/>
     <id>https://www.elongshop.winh/2016/09/07/test/</id>
@@ -108,6 +108,35 @@
     <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN013lM3ke1vdMFctI2zV_!!780616195.png_240x240.jpg&quot;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://www.elongshop.winh/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Typora" scheme="https://www.elongshop.winh/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="https://www.elongshop.winh/tags/Markdown/"/>
+    
+    <category term="翼龙" scheme="https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm run build报错（npm ERR! code ELIFECYCLE）的解决办法</title>
+    <link href="https://www.elongshop.winh/2016/09/07/model/"/>
+    <id>https://www.elongshop.winh/2016/09/07/model/</id>
+    <published>2016-09-07T01:25:00.000Z</published>
+    <updated>2021-01-27T10:51:48.732Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.rm -rf node_modules&lt;br&gt;2.rm package-lock.json&lt;br&gt;3.npm cache clear –force&lt;br&gt;4.npm</summary>
         
       
     
