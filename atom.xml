@@ -69,6 +69,33 @@
   </entry>
   
   <entry>
+    <title>Video</title>
+    <link href="https://www.elongshop.winh/2019/09/07/jing-cai-shi-pin-hui/"/>
+    <id>https://www.elongshop.winh/2019/09/07/jing-cai-shi-pin-hui/</id>
+    <published>2019-09-07T01:25:00.000Z</published>
+    <updated>2021-01-28T10:31:14.050Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;视频1&quot;&gt;&lt;a href=&quot;#视频1&quot; class=&quot;headerlink&quot; title=&quot;视频1&quot;&gt;&lt;/a&gt;视频1&lt;/h2&gt;&lt;div id=&quot;dplayer0&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="video" scheme="https://www.elongshop.winh/categories/video/"/>
+    
+    
+    <category term="翼龙" scheme="https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99/"/>
+    
+    <category term="video" scheme="https://www.elongshop.winh/tags/video/"/>
+    
+  </entry>
+  
+  <entry>
     <title>翼龙家居</title>
     <link href="https://www.elongshop.winh/2019/09/07/yi-long-jia-ju/"/>
     <id>https://www.elongshop.winh/2019/09/07/yi-long-jia-ju/</id>
@@ -94,20 +121,19 @@
   </entry>
   
   <entry>
-    <title>格式模板</title>
-    <link href="https://www.elongshop.winh/2016/09/07/test/"/>
-    <id>https://www.elongshop.winh/2016/09/07/test/</id>
+    <title>npm run build报错（npm ERR! code ELIFECYCLE）的解决办法</title>
+    <link href="https://www.elongshop.winh/2016/09/07/model/"/>
+    <id>https://www.elongshop.winh/2016/09/07/model/</id>
     <published>2016-09-07T01:25:00.000Z</published>
-    <updated>2021-01-25T02:01:07.626Z</updated>
+    <updated>2021-01-27T10:55:41.611Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN013lM3ke1vdMFctI2zV_!!780616195.png_240x240.jpg&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;script</summary>
+    <summary type="html">&lt;p&gt;1.rm -rf node_modules&lt;br&gt;2.rm package-lock.json&lt;br&gt;3.npm cache clear –force&lt;br&gt;4.npm install&lt;/p&gt;
+&lt;h2 id=&quot;执行以上命令！&quot;&gt;&lt;a href=&quot;#执行以上命令！&quot;</summary>
         
       
     
@@ -125,19 +151,20 @@
   </entry>
   
   <entry>
-    <title>npm run build报错（npm ERR! code ELIFECYCLE）的解决办法</title>
-    <link href="https://www.elongshop.winh/2016/09/07/model/"/>
-    <id>https://www.elongshop.winh/2016/09/07/model/</id>
+    <title>格式模板</title>
+    <link href="https://www.elongshop.winh/2016/09/07/test/"/>
+    <id>https://www.elongshop.winh/2016/09/07/test/</id>
     <published>2016-09-07T01:25:00.000Z</published>
-    <updated>2021-01-27T10:55:41.611Z</updated>
+    <updated>2021-01-25T02:01:07.626Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;1.rm -rf node_modules&lt;br&gt;2.rm package-lock.json&lt;br&gt;3.npm cache clear –force&lt;br&gt;4.npm install&lt;/p&gt;
-&lt;h2 id=&quot;执行以上命令！&quot;&gt;&lt;a href=&quot;#执行以上命令！&quot;</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN013lM3ke1vdMFctI2zV_!!780616195.png_240x240.jpg&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;script</summary>
         
       
     
