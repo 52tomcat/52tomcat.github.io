@@ -6,7 +6,7 @@
   <link href="https://www.elongshop.winh/atom.xml" rel="self"/>
   
   <link href="https://www.elongshop.winh/"/>
-  <updated>2021-01-28T14:15:10.858Z</updated>
+  <updated>2021-01-26T06:21:18.319Z</updated>
   <id>https://www.elongshop.winh/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>亿方包装</title>
+    <link href="https://www.elongshop.winh/2019/09/07/yi-fang-bao-zhuang/"/>
+    <id>https://www.elongshop.winh/2019/09/07/yi-fang-bao-zhuang/</id>
+    <published>2019-09-07T01:25:00.000Z</published>
+    <updated>2021-01-26T06:21:18.319Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="包装" scheme="https://www.elongshop.winh/categories/%E5%8C%85%E8%A3%85/"/>
+    
+    
+    <category term="亿方" scheme="https://www.elongshop.winh/tags/%E4%BA%BF%E6%96%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>HarmonyOS_鸿蒙</title>
@@ -44,36 +69,11 @@
   </entry>
   
   <entry>
-    <title>亿方包装</title>
-    <link href="https://www.elongshop.winh/2019/09/07/yi-fang-bao-zhuang/"/>
-    <id>https://www.elongshop.winh/2019/09/07/yi-fang-bao-zhuang/</id>
-    <published>2019-09-07T01:25:00.000Z</published>
-    <updated>2021-01-26T06:21:18.319Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="包装" scheme="https://www.elongshop.winh/categories/%E5%8C%85%E8%A3%85/"/>
-    
-    
-    <category term="亿方" scheme="https://www.elongshop.winh/tags/%E4%BA%BF%E6%96%B9/"/>
-    
-  </entry>
-  
-  <entry>
     <title>精彩视频</title>
     <link href="https://www.elongshop.winh/2019/09/07/jing-cai-shi-pin-hui/"/>
     <id>https://www.elongshop.winh/2019/09/07/jing-cai-shi-pin-hui/</id>
     <published>2019-09-07T01:25:00.000Z</published>
-    <updated>2021-01-30T01:26:50.332Z</updated>
+    <updated>2021-01-30T01:34:06.763Z</updated>
     
     
       
@@ -121,20 +121,19 @@
   </entry>
   
   <entry>
-    <title>格式模板</title>
-    <link href="https://www.elongshop.winh/2016/09/07/test/"/>
-    <id>https://www.elongshop.winh/2016/09/07/test/</id>
+    <title>npm run build报错（npm ERR! code ELIFECYCLE）的解决办法</title>
+    <link href="https://www.elongshop.winh/2016/09/07/model/"/>
+    <id>https://www.elongshop.winh/2016/09/07/model/</id>
     <published>2016-09-07T01:25:00.000Z</published>
-    <updated>2021-01-25T02:01:07.626Z</updated>
+    <updated>2021-01-27T10:55:41.611Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN013lM3ke1vdMFctI2zV_!!780616195.png_240x240.jpg&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;script</summary>
+    <summary type="html">&lt;p&gt;1.rm -rf node_modules&lt;br&gt;2.rm package-lock.json&lt;br&gt;3.npm cache clear –force&lt;br&gt;4.npm install&lt;/p&gt;
+&lt;h2 id=&quot;执行以上命令！&quot;&gt;&lt;a href=&quot;#执行以上命令！&quot;</summary>
         
       
     
@@ -152,19 +151,20 @@
   </entry>
   
   <entry>
-    <title>npm run build报错（npm ERR! code ELIFECYCLE）的解决办法</title>
-    <link href="https://www.elongshop.winh/2016/09/07/model/"/>
-    <id>https://www.elongshop.winh/2016/09/07/model/</id>
+    <title>格式模板</title>
+    <link href="https://www.elongshop.winh/2016/09/07/test/"/>
+    <id>https://www.elongshop.winh/2016/09/07/test/</id>
     <published>2016-09-07T01:25:00.000Z</published>
-    <updated>2021-01-27T10:55:41.611Z</updated>
+    <updated>2021-01-25T02:01:07.626Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;1.rm -rf node_modules&lt;br&gt;2.rm package-lock.json&lt;br&gt;3.npm cache clear –force&lt;br&gt;4.npm install&lt;/p&gt;
-&lt;h2 id=&quot;执行以上命令！&quot;&gt;&lt;a href=&quot;#执行以上命令！&quot;</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN013lM3ke1vdMFctI2zV_!!780616195.png_240x240.jpg&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;script</summary>
         
       
     
