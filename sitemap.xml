@@ -130,6 +130,20 @@
 
   
   <url>
+    <loc>https://www.elongshop.winh/tags/HarmonyOS/</loc>
+    <lastmod>2021-02-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.elongshop.winh/tags/%E9%B8%BF%E8%92%99/</loc>
+    <lastmod>2021-02-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.elongshop.winh/tags/Typora/</loc>
     <lastmod>2021-02-03</lastmod>
     <changefreq>daily</changefreq>
@@ -151,14 +165,7 @@
   </url>
   
   <url>
-    <loc>https://www.elongshop.winh/tags/HarmonyOS/</loc>
-    <lastmod>2021-02-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.elongshop.winh/tags/%E9%B8%BF%E8%92%99/</loc>
+    <loc>https://www.elongshop.winh/tags/video/</loc>
     <lastmod>2021-02-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -166,13 +173,6 @@
   
   <url>
     <loc>https://www.elongshop.winh/tags/%E4%BA%BF%E6%96%B9/</loc>
-    <lastmod>2021-02-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.elongshop.winh/tags/video/</loc>
     <lastmod>2021-02-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -188,13 +188,6 @@
 
   
   <url>
-    <loc>https://www.elongshop.winh/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-02-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.elongshop.winh/categories/%E7%BF%BC%E9%BE%99%E5%AE%B6%E5%B1%85/</loc>
     <lastmod>2021-02-03</lastmod>
     <changefreq>daily</changefreq>
@@ -202,7 +195,7 @@
   </url>
   
   <url>
-    <loc>https://www.elongshop.winh/categories/%E5%8C%85%E8%A3%85/</loc>
+    <loc>https://www.elongshop.winh/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-02-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -210,6 +203,13 @@
   
   <url>
     <loc>https://www.elongshop.winh/categories/video/</loc>
+    <lastmod>2021-02-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.elongshop.winh/categories/%E5%8C%85%E8%A3%85/</loc>
     <lastmod>2021-02-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
