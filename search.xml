@@ -108,11 +108,11 @@
     
     
     <entry>
-      <title>npm run build报错（npm ERR! code ELIFECYCLE）的解决办法</title>
-      <link href="2016/09/07/model/"/>
-      <url>2016/09/07/model/</url>
+      <title>格式模板</title>
+      <link href="2016/09/07/test/"/>
+      <url>2016/09/07/test/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>1.rm -rf node_modules<br>2.rm package-lock.json<br>3.npm cache clear –force<br>4.npm install</p><h2 id="执行以上命令！"><a href="#执行以上命令！" class="headerlink" title="执行以上命令！"></a>执行以上命令！</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN013lM3ke1vdMFctI2zV_!!780616195.png_240x240.jpg"></p><hr><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- 52_com_1 --><p><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7237853059527557" data-ad-slot="7537291628" data-ad-format="auto" data-full-width-responsive="true"></ins></p><script>     (adsbygoogle = window.adsbygoogle || []).push({});</script><hr>]]></content>
       
       
       <categories>
@@ -137,11 +137,11 @@
     
     
     <entry>
-      <title>格式模板</title>
-      <link href="2016/09/07/test/"/>
-      <url>2016/09/07/test/</url>
+      <title>npm run build报错（npm ERR! code ELIFECYCLE）的解决办法</title>
+      <link href="2016/09/07/model/"/>
+      <url>2016/09/07/model/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN013lM3ke1vdMFctI2zV_!!780616195.png_240x240.jpg"></p><hr><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- 52_com_1 --><p><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7237853059527557" data-ad-slot="7537291628" data-ad-format="auto" data-full-width-responsive="true"></ins></p><script>     (adsbygoogle = window.adsbygoogle || []).push({});</script><hr>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>1.rm -rf node_modules<br>2.rm package-lock.json<br>3.npm cache clear –force<br>4.npm install</p><h2 id="执行以上命令！"><a href="#执行以上命令！" class="headerlink" title="执行以上命令！"></a>执行以上命令！</h2>]]></content>
       
       
       <categories>
