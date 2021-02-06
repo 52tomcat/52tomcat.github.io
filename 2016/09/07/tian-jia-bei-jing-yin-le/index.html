@@ -27,7 +27,7 @@
 </script>
 
 
-    <title>格式模板 | 翼龙家居</title>
+    <title>添加背景音乐 | 翼龙家居</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -58,6 +58,9 @@
 <meta name="generator" content="Hexo 5.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="翼龙家居" type="application/atom+xml">
+<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
 
 
@@ -468,12 +471,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">格式模板</h1>
+                    <h1 class="description center-align post-title">添加背景音乐</h1>
                 </div>
             </div>
         </div>
@@ -609,8 +612,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
-                                教程
+                            <a href="/categories/npm/" class="post-category">
+                                npm
                             </a>
                         
                     </div>
@@ -631,7 +634,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    8
+                    279
                 </div>
                 
 
@@ -654,40 +657,30 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <hr>
-<h2 id="翼龙家居"><a href="#翼龙家居" class="headerlink" title="翼龙家居"></a>翼龙家居</h2><hr>
-<table>
-<thead>
-<tr>
-<th>—-</th>
-<th>—-</th>
-<th>—-</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><img src="https://img.alicdn.com/bao/uploaded/i1/780616195/O1CN01CGmkSp1vdMGFD39co_!!780616195.jpg_240x240.jpg"></td>
-<td><img src="https://img.alicdn.com/bao/uploaded/i3/780616195/O1CN01syLPVL1vdMGZAwBmP_!!0-item_pic.jpg_240x240.jpg"></td>
-<td><img src="https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN01FRQMGE1vdMHBhXFTQ_!!0-item_pic.jpg_240x240.jpg"></td>
-</tr>
-<tr>
-<td>—-</td>
-<td>—-</td>
-<td>—-</td>
-</tr>
-<tr>
-<td>—-</td>
-<td>—-</td>
-<td>—-</td>
-</tr>
-</tbody></table>
+<h2 id="1-直接插入到某一篇文章"><a href="#1-直接插入到某一篇文章" class="headerlink" title="1.直接插入到某一篇文章"></a>1.直接插入到某一篇文章</h2><p>1.先到网易云音乐中中搜出你想要的音乐，然后点击生成外链播放器<br>2. 然后把这个代码粘贴到你的文章的.md \text{.md}.md文件中，就可以显示了<br>3. JavaScript标签<br>    <script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=32329501&amp;sid=1776238762&amp;mode=js"></script></p>
 <hr>
-<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 52_com_1 -->
-<p><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7237853059527557" data-ad-slot="7537291628" data-ad-format="auto" data-full-width-responsive="true"></ins></p>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<h2 id="2-使用Hexo-tag-Aplayer-text-Hexo-tag-Aplayer-Hexo-tag-Aplayer插件"><a href="#2-使用Hexo-tag-Aplayer-text-Hexo-tag-Aplayer-Hexo-tag-Aplayer插件" class="headerlink" title="2.使用Hexo-tag-Aplayer \text{Hexo-tag-Aplayer}Hexo-tag-Aplayer插件"></a>2.使用Hexo-tag-Aplayer \text{Hexo-tag-Aplayer}Hexo-tag-Aplayer插件</h2><ol>
+<li>npm install –save hexo-tag-aplayer</li>
+<li>在文章的markdown文档里添加</li>
+<li>
+			<script>
+				console.error("Error: [hexo-tag-aplayer] Unrecognized tag argument(2): autoplay=false");
+			</script>
+</li>
+</ol>
 <hr>
-
+<h2 id="3-可以单独的做一个歌单页面"><a href="#3-可以单独的做一个歌单页面" class="headerlink" title="3.可以单独的做一个歌单页面"></a>3.可以单独的做一个歌单页面</h2><ol>
+<li>最新版的 hexo-tag-aplayer \text{hexo-tag-aplayer}hexo-tag-aplayer 已经支持了MetingJS \text{MetingJS}MetingJS的使用，可以直接解析网络平台的歌曲，首先要在站点配置文件中开启 meting \text{meting}meting 模式，添加以下代码在配置文件的最后：</li>
+<li>aplayer:<pre><code>meting: true
+</code></pre>
+</li>
+<li>复制歌单的链接，然后复制歌单的id \text{id}id，例如 <a target="_blank" rel="noopener" href="https://music.163.com/playlist?id=523845661&amp;userid=46562117">https://music.163.com/playlist?id=523845661&amp;userid=46562117</a> ，这个歌单的id就是523845661，公司名可以是tencent、netease或是其他公司，下面给出一个例子，打开 /Hexo/source/playlist/index.md文件，输入：</li>
+<li>
+    <div id="aplayer-AyFGnAPA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="7634442256" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"></div>
+</li>
+</ol>
+<hr>
+<h2 id="未完待续！"><a href="#未完待续！" class="headerlink" title="未完待续！"></a>未完待续！</h2>
                 
             </div>
             <hr/>
@@ -713,7 +706,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.elongshop.winh/2016/09/07/test/">https://www.elongshop.winh/2016/09/07/test/</a>
+                    <a href="https://www.elongshop.winh/2016/09/07/tian-jia-bei-jing-yin-le/">https://www.elongshop.winh/2016/09/07/tian-jia-bei-jing-yin-le/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1197,18 +1190,18 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2016/09/07/model/">
+                <a href="/2016/09/07/test/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="npm run build报错（npm ERR! code ELIFECYCLE）的解决办法">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="格式模板">
                         
-                        <span class="card-title">npm run build报错（npm ERR! code ELIFECYCLE）的解决办法</span>
+                        <span class="card-title">格式模板</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            npm run build报错（npm ERR!code ELIFECYCLE）的解决办法
+                            文章格式详情，内容简介。
                         
                     </div>
                     <div class="publish-info">
@@ -1230,16 +1223,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Typora/">
-                        <span class="chip bg-color">Typora</span>
-                    </a>
-                    
                     <a href="/tags/Markdown/">
                         <span class="chip bg-color">Markdown</span>
                     </a>
                     
                     <a href="/tags/%E7%BF%BC%E9%BE%99/">
                         <span class="chip bg-color">翼龙</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BF%BC%E9%BE%99%E5%85%89%E7%94%B5/">
+                        <span class="chip bg-color">翼龙光电</span>
                     </a>
                     
                 </div>
@@ -1250,7 +1243,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
                 <a href="/2016/09/07/tian-jia-bei-jing-yin-le/">
@@ -1283,6 +1276,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
