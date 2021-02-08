@@ -6,7 +6,7 @@
   <link href="https://www.elongshop.winh/atom.xml" rel="self"/>
   
   <link href="https://www.elongshop.winh/"/>
-  <updated>2021-02-08T16:25:02.206Z</updated>
+  <updated>2021-02-08T16:33:15.397Z</updated>
   <id>https://www.elongshop.winh/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>配置SSH公钥</title>
-    <link href="https://www.elongshop.winh/2021/02/09/pei-zhi-ssh-gong-yao/"/>
-    <id>https://www.elongshop.winh/2021/02/09/pei-zhi-ssh-gong-yao/</id>
-    <published>2021-02-08T16:15:06.000Z</published>
-    <updated>2021-02-08T16:25:02.206Z</updated>
+    <link href="https://www.elongshop.winh/2021/01/17/pei-zhi-ssh-gong-yao/"/>
+    <id>https://www.elongshop.winh/2021/01/17/pei-zhi-ssh-gong-yao/</id>
+    <published>2021-01-17T01:25:00.000Z</published>
+    <updated>2021-02-08T16:33:15.397Z</updated>
     
     
       
@@ -34,6 +34,14 @@
     
     
     
+    <category term="教程" scheme="https://www.elongshop.winh/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Markdown" scheme="https://www.elongshop.winh/tags/Markdown/"/>
+    
+    <category term="翼龙" scheme="https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99/"/>
+    
+    <category term="翼龙光电" scheme="https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%85%89%E7%94%B5/"/>
     
   </entry>
   
@@ -60,9 +68,9 @@
     
     <category term="翼龙" scheme="https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99/"/>
     
-    <category term="翼龙光电" scheme="https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%85%89%E7%94%B5/"/>
-    
     <category term="亿方" scheme="https://www.elongshop.winh/tags/%E4%BA%BF%E6%96%B9/"/>
+    
+    <category term="翼龙光电" scheme="https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%85%89%E7%94%B5/"/>
     
   </entry>
   
