@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.elongshop.winh/2019/09/07/harmonyos-hong-meng/</loc>
+    
+    <lastmod>2021-02-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.elongshop.winh/2021/01/17/pei-zhi-ssh-gong-yao/</loc>
     
     <lastmod>2021-02-08</lastmod>
@@ -68,13 +75,6 @@
     <loc>https://www.elongshop.winh/2019/09/07/jing-cai-shi-pin-hui/</loc>
     
     <lastmod>2021-01-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.elongshop.winh/2019/09/07/harmonyos-hong-meng/</loc>
-    
-    <lastmod>2021-01-28</lastmod>
     
   </url>
   
@@ -165,7 +165,7 @@
   </url>
   
   <url>
-    <loc>https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%85%89%E7%94%B5/</loc>
+    <loc>https://www.elongshop.winh/tags/Typora/</loc>
     <lastmod>2021-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -186,7 +186,7 @@
   </url>
   
   <url>
-    <loc>https://www.elongshop.winh/tags/Typora/</loc>
+    <loc>https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%85%89%E7%94%B5/</loc>
     <lastmod>2021-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
