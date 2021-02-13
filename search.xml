@@ -66,7 +66,7 @@
       <link href="2021/01/17/pei-zhi-ssh-gong-yao/"/>
       <url>2021/01/17/pei-zhi-ssh-gong-yao/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><hr><p>使用 SSH 协议来访问 Git 仓库，提供账户 SSH 公钥和项目 SSH 公钥设置。</p><h2 id="一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限"><a href="#一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限" class="headerlink" title="一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限"></a>一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限</h2><p>生成公钥<br>执行命令：</p><p>ssh-keygen -m PEM -t rsa -b 4096 -C “<a href="mailto:your.email@example.com">your.email@example.com</a>“</p><h1 id="Creates-a-new-ssh-key-using-the-provided-email-as-a-label"><a href="#Creates-a-new-ssh-key-using-the-provided-email-as-a-label" class="headerlink" title="Creates a new ssh key, using the provided email as a label"></a>Creates a new ssh key, using the provided email as a label</h1><h1 id="Generating-public-private-rsa-key-pair"><a href="#Generating-public-private-rsa-key-pair" class="headerlink" title="Generating public/private rsa key pair."></a>Generating public/private rsa key pair.</h1><p>Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]  // 推荐使用默认地址<br>Enter passphrase (empty for no passphrase):   // 此处不填写，回车即可；如果填写密码，则每次使用 SSH 方式推送代码时都会要求输入密码。</p><hr><h2 id="若您需要使用多个-SSH-密钥对（您可能同时在多个代码托管平台工作），在提示“Enter-file-in-which-to-save-the-key”-时，输入一个新的文件名称就不会覆盖默认的密钥对"><a href="#若您需要使用多个-SSH-密钥对（您可能同时在多个代码托管平台工作），在提示“Enter-file-in-which-to-save-the-key”-时，输入一个新的文件名称就不会覆盖默认的密钥对" class="headerlink" title="若您需要使用多个 SSH 密钥对（您可能同时在多个代码托管平台工作），在提示“Enter file in which to save the key” 时，输入一个新的文件名称就不会覆盖默认的密钥对"></a>若您需要使用多个 SSH 密钥对（您可能同时在多个代码托管平台工作），在提示“Enter file in which to save the key” 时，输入一个新的文件名称就不会覆盖默认的密钥对</h2><p>成功之后显示如下信息：<br>Your identification has been saved in /Users/you/.ssh/id_rsa.</p><h1 id="Your-public-key-has-been-saved-in-Users-you-ssh-id-rsa-pub"><a href="#Your-public-key-has-been-saved-in-Users-you-ssh-id-rsa-pub" class="headerlink" title="Your public key has been saved in /Users/you/.ssh/id_rsa.pub."></a>Your public key has been saved in /Users/you/.ssh/id_rsa.pub.</h1><h1 id="The-key-fingerprint-is"><a href="#The-key-fingerprint-is" class="headerlink" title="The key fingerprint is:"></a>The key fingerprint is:</h1><h1 id="01-0f-f4-3b-ca-85-d6-17-a1-7d-f0-68-9d-f0-a2-db-121-111-x75-114-46-101-x6d-x61-x69-x6c-64-x65-x78-x61-x6d-x70-108-101-x2e-x63-x6f-x6d"><a href="#01-0f-f4-3b-ca-85-d6-17-a1-7d-f0-68-9d-f0-a2-db-121-111-x75-114-46-101-x6d-x61-x69-x6c-64-x65-x78-x61-x6d-x70-108-101-x2e-x63-x6f-x6d" class="headerlink" title="01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your.email@example.com"></a>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <a href="mailto:your.email@example.com">your.email@example.com</a></h1><hr><h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><hr><p>添加公钥<br>CODING 提供账户 SSH 公钥和项目 SSH 公钥设置。本质上账户公钥和部署公钥是一样的，只是关联的方式不同。</p><h2 id="一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。"><a href="#一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。" class="headerlink" title="一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。"></a>一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。</h2><h2 id="未完待续！"><a href="#未完待续！" class="headerlink" title="未完待续！"></a>未完待续！</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><hr><p>使用 SSH 协议来访问 Git 仓库，提供账户 SSH 公钥和项目 SSH 公钥设置。</p><h2 id="一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限"><a href="#一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限" class="headerlink" title="一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限"></a>一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限</h2><p>生成公钥<br>执行命令：</p><p>ssh-keygen -m PEM -t rsa -b 4096 -C “<a href="mailto:your.email@example.com">your.email@example.com</a>“</p><h1 id="Creates-a-new-ssh-key-using-the-provided-email-as-a-label"><a href="#Creates-a-new-ssh-key-using-the-provided-email-as-a-label" class="headerlink" title="Creates a new ssh key, using the provided email as a label"></a>Creates a new ssh key, using the provided email as a label</h1><h1 id="Generating-public-private-rsa-key-pair"><a href="#Generating-public-private-rsa-key-pair" class="headerlink" title="Generating public/private rsa key pair."></a>Generating public/private rsa key pair.</h1><p>Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]  // 推荐使用默认地址<br>Enter passphrase (empty for no passphrase):   // 此处不填写，回车即可；如果填写密码，则每次使用 SSH 方式推送代码时都会要求输入密码。</p><hr><h2 id="若您需要使用多个-SSH-密钥对（您可能同时在多个代码托管平台工作），在提示“Enter-file-in-which-to-save-the-key”-时，输入一个新的文件名称就不会覆盖默认的密钥对"><a href="#若您需要使用多个-SSH-密钥对（您可能同时在多个代码托管平台工作），在提示“Enter-file-in-which-to-save-the-key”-时，输入一个新的文件名称就不会覆盖默认的密钥对" class="headerlink" title="若您需要使用多个 SSH 密钥对（您可能同时在多个代码托管平台工作），在提示“Enter file in which to save the key” 时，输入一个新的文件名称就不会覆盖默认的密钥对"></a>若您需要使用多个 SSH 密钥对（您可能同时在多个代码托管平台工作），在提示“Enter file in which to save the key” 时，输入一个新的文件名称就不会覆盖默认的密钥对</h2><p>成功之后显示如下信息：<br>Your identification has been saved in /Users/you/.ssh/id_rsa.</p><h1 id="Your-public-key-has-been-saved-in-Users-you-ssh-id-rsa-pub"><a href="#Your-public-key-has-been-saved-in-Users-you-ssh-id-rsa-pub" class="headerlink" title="Your public key has been saved in /Users/you/.ssh/id_rsa.pub."></a>Your public key has been saved in /Users/you/.ssh/id_rsa.pub.</h1><h1 id="The-key-fingerprint-is"><a href="#The-key-fingerprint-is" class="headerlink" title="The key fingerprint is:"></a>The key fingerprint is:</h1><h1 id="01-0f-f4-3b-ca-85-d6-17-a1-7d-f0-68-9d-f0-a2-db-x79-111-x75-114-46-101-x6d-97-x69-108-x40-x65-120-97-109-x70-108-101-x2e-x63-111-x6d"><a href="#01-0f-f4-3b-ca-85-d6-17-a1-7d-f0-68-9d-f0-a2-db-x79-111-x75-114-46-101-x6d-97-x69-108-x40-x65-120-97-109-x70-108-101-x2e-x63-111-x6d" class="headerlink" title="01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your.email@example.com"></a>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <a href="mailto:your.email@example.com">your.email@example.com</a></h1><hr><h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><hr><p>添加公钥<br>CODING 提供账户 SSH 公钥和项目 SSH 公钥设置。本质上账户公钥和部署公钥是一样的，只是关联的方式不同。</p><h2 id="一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。"><a href="#一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。" class="headerlink" title="一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。"></a>一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。</h2><h2 id="未完待续！"><a href="#未完待续！" class="headerlink" title="未完待续！"></a>未完待续！</h2>]]></content>
       
       
       <categories>
@@ -201,6 +201,31 @@
     
     
     <entry>
+      <title>翼龙家居</title>
+      <link href="2019/09/07/yi-long-jia-ju/"/>
+      <url>2019/09/07/yi-long-jia-ju/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN013lM3ke1vdMFctI2zV_!!780616195.png_240x240.jpg"></p><hr><table><thead><tr><th>A</th><th>B</th></tr></thead><tbody><tr><td><img src="https://img.alicdn.com/bao/uploaded/i4/780616195/O1CN01T2MsON1vdMFVmyWGD_!!780616195.jpg_240x240.jpg"></td><td><img src="https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN018tKRrw1vdMFgqEn65_!!780616195.jpg_240x240.jpg"></td></tr><tr><td>_1</td><td>_2</td></tr><tr><td><img src="https://fly-52elong-bf.oss-cn-beijing.aliyuncs.com/yifang/yifang_%E7%8E%BB%E7%92%83/IMG_20170307_100659.jpg"></td><td><img src="https://fly-52elong-bf.oss-cn-beijing.aliyuncs.com/yifang/yifang_%E7%8E%BB%E7%92%83/IMG_20170307_101016.jpg"></td></tr></tbody></table><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 翼龙家居 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 翼龙家居 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>精彩视频</title>
       <link href="2019/09/07/jing-cai-shi-pin-hui/"/>
       <url>2019/09/07/jing-cai-shi-pin-hui/</url>
@@ -228,36 +253,11 @@
     
     
     <entry>
-      <title>翼龙家居</title>
-      <link href="2019/09/07/yi-long-jia-ju/"/>
-      <url>2019/09/07/yi-long-jia-ju/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN013lM3ke1vdMFctI2zV_!!780616195.png_240x240.jpg"></p><hr><table><thead><tr><th>A</th><th>B</th></tr></thead><tbody><tr><td><img src="https://img.alicdn.com/bao/uploaded/i4/780616195/O1CN01T2MsON1vdMFVmyWGD_!!780616195.jpg_240x240.jpg"></td><td><img src="https://img.alicdn.com/bao/uploaded/i2/780616195/O1CN018tKRrw1vdMFgqEn65_!!780616195.jpg_240x240.jpg"></td></tr><tr><td>_1</td><td>_2</td></tr><tr><td><img src="https://fly-52elong-bf.oss-cn-beijing.aliyuncs.com/yifang/yifang_%E7%8E%BB%E7%92%83/IMG_20170307_100659.jpg"></td><td><img src="https://fly-52elong-bf.oss-cn-beijing.aliyuncs.com/yifang/yifang_%E7%8E%BB%E7%92%83/IMG_20170307_101016.jpg"></td></tr></tbody></table><hr>]]></content>
-      
-      
-      <categories>
-          
-          <category> 翼龙家居 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 翼龙家居 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>添加背景音乐</title>
       <link href="2018/09/07/tian-jia-bei-jing-yin-le/"/>
       <url>2018/09/07/tian-jia-bei-jing-yin-le/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr><h2 id="1-直接插入到某一篇文章"><a href="#1-直接插入到某一篇文章" class="headerlink" title="1.直接插入到某一篇文章"></a>1.直接插入到某一篇文章</h2><p>1.先到网易云音乐中中搜出你想要的音乐，然后点击生成外链播放器<br>2. 然后把这个代码粘贴到你的文章的.md \text{.md}.md文件中，就可以显示了<br>3. JavaScript标签<br>    <script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=32329501&amp;sid=1776238762&amp;mode=js"></script></p><hr><h2 id="2-使用Hexo-tag-Aplayer-text-Hexo-tag-Aplayer-Hexo-tag-Aplayer插件"><a href="#2-使用Hexo-tag-Aplayer-text-Hexo-tag-Aplayer-Hexo-tag-Aplayer插件" class="headerlink" title="2.使用Hexo-tag-Aplayer \text{Hexo-tag-Aplayer}Hexo-tag-Aplayer插件"></a>2.使用Hexo-tag-Aplayer \text{Hexo-tag-Aplayer}Hexo-tag-Aplayer插件</h2><ol><li>npm install –save hexo-tag-aplayer</li><li>在文章的markdown文档里添加</li><li><script>console.error("Error: [hexo-tag-aplayer] Unrecognized tag argument(2): autoplay=false");</script></li></ol><hr><h2 id="3-可以单独的做一个歌单页面"><a href="#3-可以单独的做一个歌单页面" class="headerlink" title="3.可以单独的做一个歌单页面"></a>3.可以单独的做一个歌单页面</h2><ol><li>最新版的 hexo-tag-aplayer \text{hexo-tag-aplayer}hexo-tag-aplayer 已经支持了MetingJS \text{MetingJS}MetingJS的使用，可以直接解析网络平台的歌曲，首先要在站点配置文件中开启 meting \text{meting}meting 模式，添加以下代码在配置文件的最后：</li><li>aplayer:<pre><code>meting: true</code></pre></li><li>复制歌单的链接，然后复制歌单的id \text{id}id，例如 <a href="https://music.163.com/playlist?id=523845661&amp;userid=46562117">https://music.163.com/playlist?id=523845661&amp;userid=46562117</a> ，这个歌单的id就是523845661，公司名可以是tencent、netease或是其他公司，下面给出一个例子，打开 /Hexo/source/playlist/index.md文件，输入：</li><li>    <div id="aplayer-qpYrHTQH" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="7634442256" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"></div></li></ol><hr><h2 id="未完待续！"><a href="#未完待续！" class="headerlink" title="未完待续！"></a>未完待续！</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr><h2 id="1-直接插入到某一篇文章"><a href="#1-直接插入到某一篇文章" class="headerlink" title="1.直接插入到某一篇文章"></a>1.直接插入到某一篇文章</h2><p>1.先到网易云音乐中中搜出你想要的音乐，然后点击生成外链播放器<br>2. 然后把这个代码粘贴到你的文章的.md \text{.md}.md文件中，就可以显示了<br>3. JavaScript标签<br>    <script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=32329501&amp;sid=1776238762&amp;mode=js"></script></p><hr><h2 id="2-使用Hexo-tag-Aplayer-text-Hexo-tag-Aplayer-Hexo-tag-Aplayer插件"><a href="#2-使用Hexo-tag-Aplayer-text-Hexo-tag-Aplayer-Hexo-tag-Aplayer插件" class="headerlink" title="2.使用Hexo-tag-Aplayer \text{Hexo-tag-Aplayer}Hexo-tag-Aplayer插件"></a>2.使用Hexo-tag-Aplayer \text{Hexo-tag-Aplayer}Hexo-tag-Aplayer插件</h2><ol><li>npm install –save hexo-tag-aplayer</li><li>在文章的markdown文档里添加</li><li><script>console.error("Error: [hexo-tag-aplayer] Unrecognized tag argument(2): autoplay=false");</script></li></ol><hr><h2 id="3-可以单独的做一个歌单页面"><a href="#3-可以单独的做一个歌单页面" class="headerlink" title="3.可以单独的做一个歌单页面"></a>3.可以单独的做一个歌单页面</h2><ol><li>最新版的 hexo-tag-aplayer \text{hexo-tag-aplayer}hexo-tag-aplayer 已经支持了MetingJS \text{MetingJS}MetingJS的使用，可以直接解析网络平台的歌曲，首先要在站点配置文件中开启 meting \text{meting}meting 模式，添加以下代码在配置文件的最后：</li><li>aplayer:<pre><code>meting: true</code></pre></li><li>复制歌单的链接，然后复制歌单的id \text{id}id，例如 <a href="https://music.163.com/playlist?id=523845661&amp;userid=46562117">https://music.163.com/playlist?id=523845661&amp;userid=46562117</a> ，这个歌单的id就是523845661，公司名可以是tencent、netease或是其他公司，下面给出一个例子，打开 /Hexo/source/playlist/index.md文件，输入：</li><li>    <div id="aplayer-NXXengoZ" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="7634442256" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"></div></li></ol><hr><h2 id="未完待续！"><a href="#未完待续！" class="headerlink" title="未完待续！"></a>未完待续！</h2>]]></content>
       
       
       <categories>
@@ -282,7 +282,7 @@
     
     
     <entry>
-      <title>npm run build报错（npm ERR! code ELIFECYCLE）的解决办法</title>
+      <title>npm run build报错的解决办法</title>
       <link href="2016/09/07/model/"/>
       <url>2016/09/07/model/</url>
       
