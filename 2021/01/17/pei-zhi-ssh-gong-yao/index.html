@@ -12,6 +12,9 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="a.validate.01" content="a8054ad120e386a2e50fd8dc4af9845fa52c" />
+
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -47,7 +50,7 @@
 
 
 
-
+    <meta name="a.validate.01" content="a8054ad120e386a2e50fd8dc4af9845fa52c" />
 
 
 
@@ -660,7 +663,7 @@
 <h1 id="Creates-a-new-ssh-key-using-the-provided-email-as-a-label"><a href="#Creates-a-new-ssh-key-using-the-provided-email-as-a-label" class="headerlink" title="Creates a new ssh key, using the provided email as a label"></a>Creates a new ssh key, using the provided email as a label</h1><h1 id="Generating-public-private-rsa-key-pair"><a href="#Generating-public-private-rsa-key-pair" class="headerlink" title="Generating public/private rsa key pair."></a>Generating public/private rsa key pair.</h1><p>Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]  // 推荐使用默认地址<br>Enter passphrase (empty for no passphrase):   // 此处不填写，回车即可；如果填写密码，则每次使用 SSH 方式推送代码时都会要求输入密码。</p>
 <hr>
 <h2 id="若您需要使用多个-SSH-密钥对（您可能同时在多个代码托管平台工作），在提示“Enter-file-in-which-to-save-the-key”-时，输入一个新的文件名称就不会覆盖默认的密钥对"><a href="#若您需要使用多个-SSH-密钥对（您可能同时在多个代码托管平台工作），在提示“Enter-file-in-which-to-save-the-key”-时，输入一个新的文件名称就不会覆盖默认的密钥对" class="headerlink" title="若您需要使用多个 SSH 密钥对（您可能同时在多个代码托管平台工作），在提示“Enter file in which to save the key” 时，输入一个新的文件名称就不会覆盖默认的密钥对"></a>若您需要使用多个 SSH 密钥对（您可能同时在多个代码托管平台工作），在提示“Enter file in which to save the key” 时，输入一个新的文件名称就不会覆盖默认的密钥对</h2><p>成功之后显示如下信息：<br>Your identification has been saved in /Users/you/.ssh/id_rsa.</p>
-<h1 id="Your-public-key-has-been-saved-in-Users-you-ssh-id-rsa-pub"><a href="#Your-public-key-has-been-saved-in-Users-you-ssh-id-rsa-pub" class="headerlink" title="Your public key has been saved in /Users/you/.ssh/id_rsa.pub."></a>Your public key has been saved in /Users/you/.ssh/id_rsa.pub.</h1><h1 id="The-key-fingerprint-is"><a href="#The-key-fingerprint-is" class="headerlink" title="The key fingerprint is:"></a>The key fingerprint is:</h1><h1 id="01-0f-f4-3b-ca-85-d6-17-a1-7d-f0-68-9d-f0-a2-db-x79-111-117-x72-46-101-109-97-x69-108-x40-x65-x78-x61-109-x70-108-101-46-99-111-109"><a href="#01-0f-f4-3b-ca-85-d6-17-a1-7d-f0-68-9d-f0-a2-db-x79-111-117-x72-46-101-109-97-x69-108-x40-x65-x78-x61-109-x70-108-101-46-99-111-109" class="headerlink" title="01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your.email@example.com"></a>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <a href="mailto:your.email@example.com">your.email@example.com</a></h1><hr>
+<h1 id="Your-public-key-has-been-saved-in-Users-you-ssh-id-rsa-pub"><a href="#Your-public-key-has-been-saved-in-Users-you-ssh-id-rsa-pub" class="headerlink" title="Your public key has been saved in /Users/you/.ssh/id_rsa.pub."></a>Your public key has been saved in /Users/you/.ssh/id_rsa.pub.</h1><h1 id="The-key-fingerprint-is"><a href="#The-key-fingerprint-is" class="headerlink" title="The key fingerprint is:"></a>The key fingerprint is:</h1><h1 id="01-0f-f4-3b-ca-85-d6-17-a1-7d-f0-68-9d-f0-a2-db-121-x6f-x75-114-46-101-x6d-97-x69-108-64-101-x78-x61-x6d-112-108-x65-46-99-x6f-109"><a href="#01-0f-f4-3b-ca-85-d6-17-a1-7d-f0-68-9d-f0-a2-db-121-x6f-x75-114-46-101-x6d-97-x69-108-64-101-x78-x61-x6d-112-108-x65-46-99-x6f-109" class="headerlink" title="01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your.email@example.com"></a>01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db <a href="mailto:your.email@example.com">your.email@example.com</a></h1><hr>
 <h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><hr>
 <p>添加公钥<br>CODING 提供账户 SSH 公钥和项目 SSH 公钥设置。本质上账户公钥和部署公钥是一样的，只是关联的方式不同。</p>
 <h2 id="一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。"><a href="#一个-SSH-公钥文件，如果和-CODING-账户关联，便称为账户-SSH-公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。" class="headerlink" title="一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。"></a>一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。</h2><h2 id="未完待续！"><a href="#未完待续！" class="headerlink" title="未完待续！"></a>未完待续！</h2>
