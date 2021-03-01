@@ -193,7 +193,7 @@
   </url>
   
   <url>
-    <loc>https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%85%89%E7%94%B5/</loc>
+    <loc>https://www.elongshop.winh/tags/Typora/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -214,7 +214,7 @@
   </url>
   
   <url>
-    <loc>https://www.elongshop.winh/tags/Typora/</loc>
+    <loc>https://www.elongshop.winh/tags/%E7%BF%BC%E9%BE%99%E5%85%89%E7%94%B5/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -293,6 +293,13 @@
   </url>
   
   <url>
+    <loc>https://www.elongshop.winh/categories/npm/</loc>
+    <lastmod>2021-03-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.elongshop.winh/categories/video/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
@@ -301,13 +308,6 @@
   
   <url>
     <loc>https://www.elongshop.winh/categories/%E7%BE%8E%E9%A3%9F/</loc>
-    <lastmod>2021-03-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.elongshop.winh/categories/npm/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
